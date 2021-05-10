@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+header ~ *{
+    color: white;
+}
+header a {
+    color: white;
+}
+header a:hover {
+    color: lightgray;
+}
+header input[type='button'] {
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+header input[type='button']:hover {
+    color: lightgray;
+    background-color: #0b4b6d;
+}
+#header_section {
+    background-image: url("../static/head_background.png");
+    background-size: cover;
+}
+input[type="button"][value="buy now"] {
+    background-color: #061e37;
+    border: none;
+    color: white;
+    font-size: 0.8em;
+}
+input[type="button"][value="buy now"]:hover {
+    background-color: #09325d;
+}
+input[type="button"][value="try for free"] {
+    background-color: white;
+    border: none;
+    color: #061e37;
+    font-size: 0.8em;
+}
+input[type="button"][value="try for free"]:hover {
+    background-color: lightgray;
+}
+h1 {
+    color: #061e37;
+}
+#easy_section p {
+    color: #b0bec5;
+}
+#get_started_btn {
+    background-color: #1de9b6;
+    font-weight: bolder;
+    border: none;
+    height: 2.6rem;
+}
+#get_started_btn:hover {
+    background-color: #10ab84;
+}
+#counts_section {
+    color: white;
+    font-weight: bolder;
+}
+#business_block{
+    background-color: #80d8ff;
+}
+#downloads_block{
+    background-color: #839fff;
+}
+#free_installs_block{
+    background-color: #c357ff;
+}
+#pro_users_block{
+    background-color: #ff35fc;
+}
+#services_section {
+    color: #b0bec5;
+}
+.accordion_body_text {
+    color: #061e37;
+}
+#customers {
+    background-image: url("../static/customers_background.png");
+    background-size: cover;
+}
+#customers h1, #customers h1 + p{
+     color: white;
+ }
+#customers h1{
+    font-family: 'Raleway', sans-serif;
+}
+#customers h1+p{
+    font-weight: 500;
+}
+#customers input[type="button"] {
+    background-color: #061e37;
+    border: none;
+    height: 3em;
+}
+#customers input[type="button"]:hover {
+    background-color: #09325d;
+}
+.customer  {
+    background-color: white;
+    border-radius: 5px;
+    color: #78909c;
+}
+#customers h3 {
+    color: #061e37;
+}
+#team {
+    color: #b0bec5;
+}
+#team strong {
+    color: #061e37;
+}
+#contact_us {
+    background-color: #fafafa;
+    color: #061e37;
+}
+#contact_us input[type="text"] {
+    border: solid #061e37;
+    border-radius: 5px;
+}
+#message_input {
+    height: 10rem;
+}
+#contact_us input[type="submit"] {
+    background-color: #1de9b6;
+    border: none;
+}
+#contact_us input[type="submit"]:hover {
+    background-color: #15b88f;
+}
+footer {
+    background-color: #061e37;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: lightgray;
+}
+.footer_second_line {
+    font-size: 0.8em;
+    color: #838f9b;
+}
